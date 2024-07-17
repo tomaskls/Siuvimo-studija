@@ -1,20 +1,28 @@
-.main-header{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 30px;
+header{
+    background-color: aqua;
     
 }
-.main-nav{
+.nav-top{
+    background-color: rgb(26, 62, 204);
     display: flex;
+    justify-content: flex-end;
     gap: 30px;
 }
-.nav-link{
+.nav-top-link{
     color: white;
+    text-decoration: none;    
 }
-.main-header .nav-link:hover{
-    background-color: gray;
-    color: black;
+.logo{
+    display: flex;
+    align-items: center;
+    height: 118px;
+    
+}
+.nav-bottom{
+    background-color: lightgrey;
+}
+.nav-bottom-link{
+    color: rgb(72, 67, 67);
+    text-decoration: none;
+    text-transform: uppercase;
 }
