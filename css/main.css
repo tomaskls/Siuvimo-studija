@@ -1,0 +1,10 @@
+
+.body{
+    margin: 0;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    background-image: url(/background.png);
+    background-size: cover;
+}
+

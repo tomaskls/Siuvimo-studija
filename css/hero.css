@@ -1,0 +1,30 @@
+.section-hero{
+    background-image: url(./);
+
+    
+}
+.hero-text{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 500px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.hero-text .title{
+    font-size: 50px ;
+  
+
+}
+.hero-text .description{
+    font-size: 20px;
+    margin-left: 50%;
+   
+}

@@ -1,0 +1,20 @@
+.main-header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.main-nav{
+    display: flex;
+    gap: 30px;
+}
+.nav-link{
+    color: white;
+}
+.main-header .nav-link:hover{
+    background-color: gray;
+    color: black;
+}
