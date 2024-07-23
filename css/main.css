@@ -1,0 +1,119 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgba(81, 21, 21, 0.669);
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    align-content: flex-start;
+   
+    
+    background-color: rgb(81, 21, 21);
+    width: 1000px;
+    
+    margin-left: calc(50% - 500px);
+    margin-right: calc(50% - 500px);
+    position: relative;
+}
+.foto>div{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+   }
+
+.foto>div>a{
+    background-color: rgba(81, 21, 21, 0.509);
+    padding: 5px 10px;
+    border-radius: 25px;
+    color:  white;
+    font-size: 30px;
+    text-decoration: none;
+}  
+.kolekcija{
+    background-image: url(/img/kolekcija.png);
+    background-size: cover;
+    width: 320px;
+    height: 300px;
+    position: relative;    
+}
+.kolekcija>a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+   .modeliavimas{
+    background-image: url(/img/modeliavimas.png);
+    background-size: cover;
+    width: 320px;
+    height: 300px;
+    position: relative;
+    
+   }
+   .modeliavimas>a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+   }
+   
+   .taisymas{
+    background-image: url(/img/taisymas.png);
+    background-size: cover;
+    width: 320px;
+    height: 300px;
+    position: relative;
+   }
+   .taisymas>a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+   }
+
+   .siuvimas{
+    background-image: url(/img/siuvimas.png);
+    background-size: cover;
+    width: 650px;
+    height: 300px;
+    position: relative;
+   }
+.siuvimas>a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+   .uzuolaidos{
+    background-image: url(/img/uzuolaidos.png);
+    background-size: cover;
+    width: 320px;
+    height: 300px;
+    position: relative;
+   }
+   .uzuolaidos>a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+   }
+   .aprasymas{
+    background-color: rgb(81, 21, 21) ;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    color: white;
+    font-size: 20px;
+   }
+   .aprasymas>h2{
+    padding-top: 40px;
+    font-size: 2em;
+   }
+   ]
