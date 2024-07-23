@@ -5,8 +5,11 @@ header{
 .top-line{
  display: flex;
  flex-direction: row; 
+<<<<<<< HEAD
  justify-content: c;
  width: 100%;
+=======
+>>>>>>> e9e7ed328c874f2f42e783be7fc1e9d2d2f3c4fc
 }
 .nav-top{
     background-color: rgb(81, 21, 21);
@@ -16,7 +19,11 @@ header{
     gap: 30px;
     
 }
+<<<<<<< HEAD
 .nav1{
+=======
+.nav-left{
+>>>>>>> e9e7ed328c874f2f42e783be7fc1e9d2d2f3c4fc
     width: calc(50% - 500px);
     background-color: rgb(81, 21, 21);
    
