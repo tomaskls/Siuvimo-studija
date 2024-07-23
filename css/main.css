@@ -13,35 +13,23 @@ main{
     flex-direction: row;
     flex-wrap: wrap ;
     align-content: flex-start;
-   
-    
     background-color: rgb(81, 21, 21);
     width: 1000px;
-    
-    margin-left: calc(50% - 500px);
+     margin-left: calc(50% - 500px);
     margin-right: calc(50% - 500px);
     position: relative;
 }
 .foto>div{
     margin-left: 10px;
-    margin-top: 10px;
-   
+    margin-top: 10px; 
    }
-  
-.kolekcija{
-    display: flex;
-    width: 320px;
-    height: 300px;
-    position: relative;    
-}
-.kolekcija>a{
+.alink{
     width: 100%;
     height: 100%;
 }
 .imgk{
     width: 100%;
-    height: 100%;
-   
+    height: 100%;   
 }
 .ukolekcija{
     background-color:  rgba(81, 21, 21, 0.582);
@@ -54,51 +42,16 @@ main{
     bottom: 10px;
     right: 15px;
 }
-   .modeliavimas{
-    display: flex;
-    width: 320px;
-    height: 300px;
-    position: relative;
-    
-   }
-  .modeliavimas>a{
-    width: 100%;
-    height: 100%;
-  } 
-   
-   .taisymas{
+   .paslaugos{
     display: flex;
     width: 320px;
     height: 300px;
     position: relative;
    }
-   .taisymas>a{
-    width: 100%;
-    height: 100%;
-   }
-
-   .siuvimas{
-    display: flex;
+   .spaslaugos{
     width: 650px;
-    height: 300px;
-    position: relative;
    }
-.siuvimas>a{
-    width: 100%;
-    height: 100%;
-}
-
-   .uzuolaidos{
-    
-    width: 320px;
-    height: 300px;
-    position: relative;
-   }
-   .uzuolaidos>a{
-    width: 100%;
-    height: 100%;
-   }
-   .aprasymas{
+.aprasymas{
     background-color: rgb(81, 21, 21) ;
     width: 1000px;
     margin-left: calc(50% - 500px);
@@ -109,4 +62,3 @@ main{
     padding-top: 40px;
     font-size: 2em;
    }
-   ]
