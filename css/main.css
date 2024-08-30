@@ -64,22 +64,32 @@ main{
    }
    @media (max-width:760px){
   
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .foto{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     
-    width: 94%;    
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 100%;    
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .foto>div{
   margin-left: 0;  
 }
 .paslaugos{
- 
-    width: 100%;
+
+    width: 84%;
     height: auto;
     ;
 }  
@@ -108,7 +118,7 @@ main{
 .logo>img{
     margin-top: 20px;
     margin-left: 50px;
-    height: 140px;
+    height: 80px;
     
 }
 .aprasymas{
